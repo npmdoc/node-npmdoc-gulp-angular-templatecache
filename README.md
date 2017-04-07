@@ -3,9 +3,11 @@
 
 [![NPM](https://nodei.co/npm/gulp-angular-templatecache.png?downloads=true)](https://www.npmjs.com/package/gulp-angular-templatecache)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-angular-templatecache_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-gulp-angular-templatecache%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
