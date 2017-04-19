@@ -1,9 +1,14 @@
-# api documentation for  [gulp-angular-templatecache (v2.0.0)](https://github.com/miickel/gulp-angular-templatecache#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-angular-templatecache.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-angular-templatecache) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache)
+# npmdoc-gulp-angular-templatecache
+
+#### api documentation for  [gulp-angular-templatecache (v2.0.0)](https://github.com/miickel/gulp-angular-templatecache#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-angular-templatecache.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-angular-templatecache) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache)
+
 #### Concatenates and registers AngularJS templates in the $templateCache.
 
-[![NPM](https://nodei.co/npm/gulp-angular-templatecache.png?downloads=true)](https://www.npmjs.com/package/gulp-angular-templatecache)
+[![NPM](https://nodei.co/npm/gulp-angular-templatecache.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-angular-templatecache)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-angular-templatecache%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-angular-templatecache/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Mickel",
-        "email": "andersson.mickel@gmail.com",
         "url": "http://mickel.me"
     },
     "bugs": {
@@ -62,13 +66,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "mickel",
-            "email": "andersson.mickel@gmail.com"
+            "name": "mickel"
         }
     ],
     "name": "gulp-angular-templatecache",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/miickel/gulp-angular-templatecache.git"
@@ -79,16 +81,6 @@
     "version": "2.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-angular-templatecache](#apidoc.module.gulp-angular-templatecache)
-
-
-
-# <a name="apidoc.module.gulp-angular-templatecache"></a>[module gulp-angular-templatecache](#apidoc.module.gulp-angular-templatecache)
 
 
 
