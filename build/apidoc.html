@@ -61,12 +61,79 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-angular-templatecache">module gulp-angular-templatecache</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-angular-templatecache.gulp-angular-templatecache">
+            function <span class="apidocSignatureSpan"></span>gulp-angular-templatecache
+            <span class="apidocSignatureSpan">(filename, options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-angular-templatecache" id="apidoc.module.gulp-angular-templatecache">module gulp-angular-templatecache</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-angular-templatecache.gulp-angular-templatecache" id="apidoc.element.gulp-angular-templatecache.gulp-angular-templatecache">
+        function <span class="apidocSignatureSpan"></span>gulp-angular-templatecache
+        <span class="apidocSignatureSpan">(filename, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function templateCache(filename, options) {
+
+<span class="apidocCodeCommentSpan">  /**
+   * Prepare options
+   */
+</span>
+  if (typeof filename === &#x27;string&#x27;) {
+    options = options || {};
+  } else {
+    options = filename || {};
+    filename = options.filename || DEFAULT_FILENAME;
+  }
+
+  /**
+   * Normalize moduleSystem option
+   */
+
+  if (options.moduleSystem) {
+    options.moduleSystem = options.moduleSystem.toLowerCase();
+  }
+
+  /**
+   * Prepare header / footer
+   */
+
+  var templateHeader = options.templateHeader || TEMPLATE_HEADER;
+  var templateFooter = options.templateFooter || TEMPLATE_FOOTER;
+
+  /**
+   * Build templateCache
+   */
+
+  return es.pipeline(
+    templateCacheStream(options.root || &#x27;&#x27;, options.base, options.templateBody, options.transformUrl),
+    concat(filename),
+    header(templateHeader, {
+      module: options.module || DEFAULT_MODULE,
+      standalone: options.standalone ? &#x27;, []&#x27; : &#x27;&#x27;
+    }),
+    footer(templateFooter, {
+      module: options.module || DEFAULT_MODULE
+    }),
+    wrapInModule(options.moduleSystem)
+  );
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
