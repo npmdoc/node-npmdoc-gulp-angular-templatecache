@@ -1,6 +1,6 @@
 # npmdoc-gulp-angular-templatecache
 
-#### api documentation for  [gulp-angular-templatecache (v2.0.0)](https://github.com/miickel/gulp-angular-templatecache#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-angular-templatecache.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-angular-templatecache) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache)
+#### basic api documentation for  [gulp-angular-templatecache (v2.0.0)](https://github.com/miickel/gulp-angular-templatecache#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-angular-templatecache.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-angular-templatecache) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-angular-templatecache)
 
 #### Concatenates and registers AngularJS templates in the $templateCache.
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
